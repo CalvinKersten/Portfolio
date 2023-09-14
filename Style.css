@@ -34,62 +34,117 @@ nav {
     display: flex;
     flex-direction: column;
 }
-.aboutMe {
-    display: flex;
-    flex-direction: row;
+.title {
     text-align: center;
+    color: rgba(255, 255, 255, 0.705);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 150px;
 }
-.bla {
+.middle {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.introduction {
+    margin-right: 3%;
+    color: rgba(255, 255, 255, 0.705);
+    box-shadow: 0px 10px 12px black;
+    flex: 1;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 164.85%;
+}
+.aboutMe {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.alignment {
     flex: 3;
     display: flex;
     flex-direction: column;
+    font-size: 100px;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
 }
-.title {
-    font-size: 120px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgba(255, 255, 255, 0.63);
+.box1 {
+    display: flex;
+    flex-direction: row;
+}
+.box1Left {
+    background-color: rgba(255, 255, 255, 0.541);
+    box-shadow: 0px 10px 12px black;
+    flex: 2;
+    border-top-left-radius: 25px;
+}
+.box1Right {
+    flex: 2;
+    background-image: url("James 13.JPG");
+    background-size: cover;
+    border-top-right-radius: 25px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+}
+.box2Right {
+    flex: 2;
+    background-image: url("Moon edited.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.box2Left {
+    background-color: rgba(255, 255, 255, 0.541);
+    box-shadow: 0px 10px 12px black;
+    flex: 2;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 25px;
+}
+.box3Left {
+    background-color: rgba(255, 255, 255, 0.541);
+    box-shadow: 0px 10px 12px black;
+    flex: 2;
+    border-bottom-left-radius: 25px;
+}
+.box3Right {
+    flex: 2;
+    background-image: url("Just Us V3.jpg");
+    background-position: center;
+    background-size: cover;
+    border-bottom-right-radius: 25px;   
+}
+
+.bottom {
     margin-top: 2%;
-    margin-bottom: 0px;
-    text-decoration: underline;
-}
-.introduction {
     text-align: center;
-    font-size: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgba(255, 255, 255, 0.63);
-    
+    background-position: center;
+    background-size: cover;
+    width: 100%;
 }
-
-.asideLeft {
-    flex: 2;
-    text-align: center;
+.figure1 {
+    width: 20%;
+    object-fit: cover; 
 }
-.l1 {
-    width: 400px;
-    border: 5px solid black;
+.figure2 {
+    width: 20%;
+    object-fit: cover;    
 }
-.l2 {
-    width: 400px;
-    border: 5px solid black;
+.figure3 {
+    width: 20%;
+    object-fit: cover; 
 }
-.l3 {
-    width: 400px;
-    border: 5px solid black;
+.figure4 {
+    width: 20%;
+    object-fit: cover; 
 }
-
-.asideRight {
-    flex: 2;
-    text-align: center;
-}
-.r1 {
-    width: 400px;
-    border: 5px solid black;
-}
-.r2 {
-    width: 400px;
-    border: 5px solid black;
-}
-.r3 {
-    width: 400px;
-    border: 5px solid black;
+.figure5 {
+    width: 20%;
+    object-fit: cover; 
 }
