@@ -6,6 +6,7 @@ body {
     padding: 0px;
 }
 
+
 nav {
     display: flex;
     flex-direction:  row;
@@ -30,10 +31,6 @@ nav {
     font-size: 170%;
 }
 
-.top {
-    display: flex;
-    flex-direction: column;
-}
 .title {
     text-align: center;
     color: rgba(255, 255, 255, 0.705);
@@ -46,19 +43,20 @@ nav {
 .middle {
     display: flex;
     flex-direction: row-reverse;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .introduction {
-    margin-right: 3%;
     color: rgba(255, 255, 255, 0.705);
-    box-shadow: 0px 10px 12px black;
+    box-shadow: 0px 5px 12px black;
     flex: 1;
     border-radius: 25px;
     text-align: center;
     font-size: 164.85%;
 }
 .aboutMe {
-    margin-left: 2%;
     margin-right: 2%;
+    margin-left: 2%;
 }
 .alignment {
     flex: 3;
@@ -66,15 +64,16 @@ nav {
     flex-direction: column;
     font-size: 100px;
     text-align: center;
-    margin-left: 3%;
     margin-right: 3%;
 }
 .box1 {
     display: flex;
     flex-direction: row;
+    height: 100%;
 }
 .box1Left {
-    background-color: rgba(255, 255, 255, 0.541);
+    background-color: rgba(255, 255, 255, 0.445);
+    backdrop-filter: blur(10px);
     box-shadow: 0px 10px 12px black;
     flex: 2;
     border-top-left-radius: 25px;
@@ -89,6 +88,7 @@ nav {
 .box2 {
     display: flex;
     flex-direction: row;
+    height: 100%;
 }
 .box2Right {
     flex: 2;
@@ -97,7 +97,8 @@ nav {
     background-size: cover;
 }
 .box2Left {
-    background-color: rgba(255, 255, 255, 0.541);
+    background-color: rgba(255, 255, 255, 0.445);
+    backdrop-filter: blur(10px);
     box-shadow: 0px 10px 12px black;
     flex: 2;
 }
@@ -106,9 +107,11 @@ nav {
     display: flex;
     flex-direction: row-reverse;
     border-radius: 25px;
+    height: 100%;
 }
 .box3Left {
-    background-color: rgba(255, 255, 255, 0.541);
+    background-color: rgba(255, 255, 255, 0.445);
+    backdrop-filter: blur(10px);
     box-shadow: 0px 10px 12px black;
     flex: 2;
     border-bottom-left-radius: 25px;
@@ -126,10 +129,23 @@ nav {
     margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
-    background-color: rgba(255, 255, 255, 0.541);
+    background-color: rgba(255, 255, 255, 0.445);
+    backdrop-filter: blur(10px);
     padding: 1%;
     border-radius: 25px;
+    box-shadow: 0px 10px 12px black;
     
+}
+.subtitle1 {
+    text-align: center;
+    background: -webkit-linear-gradient(blue, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 120px;
 }
 .row1 {
     display: flex;
